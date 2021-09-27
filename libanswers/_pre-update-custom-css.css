@@ -1,0 +1,313 @@
+ .s-la-banner .col-md-12 { text-align: center; } #s-la-banner-img { max-width: 33%; padding: 20px; }
+
+    figcaption {
+        background-color: #222;
+        color: #fff;
+        font: italic smaller sans-serif;
+        padding: 3px;
+        text-align: center;
+    }
+    
+    
+    
+    body {
+      background-color: #e9e9e9;
+      font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+     font-weight: 400;
+    }
+    
+    a, a:active, a:visited {
+      color: #642a90;
+      text-decoration: underline;
+    }
+    
+    a:focus, a:hover {
+        border-bottom: 3px solid #eeb211;
+        text-decoration: none;
+        color:#642a90;
+        font-weight: inherit;
+    }
+    
+    #s-la-page-column-1 a, #s-la-page-column-1 a:active, #s-la-page-column-1 a:visited {
+      color: #642a90;
+      font-weight: bold;
+      border-bottom: 1px solid rgba(100,42,144, 0.25);
+        padding-bottom: 2px;
+        text-decoration: none;
+    }
+    
+    #s-la-page-column-1 a:focus, #s-la-page-column-1 a:hover {
+        border-bottom: 3px solid #eeb211;
+        text-decoration: none;
+        color:#642a90;
+        font-weight: bold;
+    }
+    
+    h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
+    .s-la-searchform-button {
+        font-family: "Oswald", system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+        font-weight: 400;
+    }
+    
+    #ua-header {
+      background-color: #46166B;
+    color: #ffffff;
+      margin-bottom: 15px;
+    }
+    
+    #ua-header img {
+      width: 100%;
+      max-width: 225px;
+      padding: 5px;
+    }
+    
+    #s-la-page-28426 #s-la-headerlinks {
+       display: none;
+    }
+    
+    #s-la-headerlinks {
+       margin-bottom: 5px;
+      background-color: transparent;
+    }
+    
+    #s-la-bc .s-la-color-bars {
+      background-image: none;
+      background-color: transparent;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ffffff;
+    }
+    
+    .s-la-page-home #s-la-bc {
+       display: none;
+    }
+    #s-la-header-public,
+    #s-la-public-header {
+       background-color: #642a90;
+       color: #ffffff;
+       background-position: 0 0;
+       background-size: contain;
+      background-repeat: no-repeat;
+       padding: 25px 0px 0px 0px;
+       border-radius: 5px 5px 0px 0px;
+    margin-left: 0px!important;
+      margin-right: 0px!important;
+       margin-top: 15px;
+    }
+    
+    #s-la-header-public {
+       border-radius: 5px 5px 5px 5px;
+       padding-bottom: 25px;
+    }
+    
+    #s-la-public-header .col-md-12 {
+       padding-left:0px;
+      padding-right: 0px;
+    }
+    
+    #s-la-page-title-bar {
+       background-color: #642a90;
+       color: #ffffff;
+       padding: 1px 25px 25px 25px;
+       border-radius: 0px 0px 5px 5px;
+      margin-top: -1px;
+    }
+    
+    #s-la-page-title-bar .s-la-color-bars {
+         border-color: #642a90;
+    }
+    
+    #s-la-public-header .s-la-public-header-2 {
+       margin: 0px 0px 10px 0px;
+    }
+    
+    .s-la-public-header-text {
+       margin-bottom: 0px;
+    }
+    
+    #s-la-header-public .s-la-public-header-0 .s-la-public-header-title,
+    h1#s-la-public-header-title {
+       font-size: 36px;
+       font-weight: 400;
+      text-align: left;
+       margin: 0 25px 10px 50px;
+    }
+    .s-la-public-header-description {
+      text-align: left;
+      margin-left: 50px;
+    }
+    
+    .s-la-public-header-2 .s-la-navbar {
+         margin-top: 50px;
+         margin-bottom: 25px;
+    }
+    
+    .s-la-color-bars .navbar-header {
+       display: none;
+    }
+    
+    text-decoration: underline;
+   }
+   
+   a:focus, a:hover {
+       border-bottom: 3px solid #eeb211;
+       text-decoration: none;
+       color:#642a90;
+       font-weight: inherit;
+   }
+   
+   #s-la-page-column-1 a, #s-la-page-column-1 a:active, #s-la-page-column-1 a:visited {
+     color: #642a90;
+     font-weight: bold;
+     border-bottom: 1px solid rgba(100,42,144, 0.25);
+       padding-bottom: 2px;
+       text-decoration: none;
+   }
+   
+   #s-la-page-column-1 a:focus, #s-la-page-column-1 a:hover {
+       border-bottom: 3px solid #eeb211;
+       text-decoration: none;
+       color:#642a90;
+       font-weight: bold;
+   }
+    
+    .navbar {
+    border: 0px solid transparent;
+    }
+    .navbar-default .navbar-collapse {
+        padding: 10px 0px!important;
+       background-color: transparent;
+    }
+    
+    #s-la-header-public a,
+    #s-la-public-header a {
+        color: #ffffff;
+       font-weight: 700;
+    }
+    #s-la-header-public .dropdown-menu a {
+        color: #642a90;
+        font-weight: 400;
+    }
+    
+    .btn-primary {
+        background: #efb310; 
+        border-color: #efb310;
+        color: #666666;
+    }
+    
+    .btn-primary:hover {
+          background: #efb310; 
+        border-color: #efb310;
+    }
+    
+    .form-control:focus {
+        border-color: #efb310;
+    }
+    
+    .s-la-box {
+       background: #ffffff;
+       box-shadow: rgba(0, 0, 0, 0.03) 0px 1px 0px 0px, rgba(0, 0, 0, 0.07) 0px 5px 5px -3px
+    }
+    
+    .s-la-box-position-1 {
+       margin-left: 0px;
+     padding-left: 0px;
+      margin-right: 0px;
+      padding-right: 0px;
+    }
+    
+    .navbar-form .s-la-content-search-query {
+       padding-top: 10px;
+       padding-bottom: 10px;
+      height: auto;
+    }
+    
+    .s-la-searchform-button { 
+        background-color: #eeb211;
+        background-image: linear-gradient(to bottom,#eeb211 50%,#eeb211 80%);
+        border-color: #eeb211;
+       color:#44661b; 
+       padding: 10px 20px;
+       text-transform: uppercase;
+      transition: all .5s;
+    }
+    
+    
+    .s-la-searchform-button:hover {
+        background-color: #eeb211;
+        background-image: linear-gradient(to bottom,#eeb211 50%,#eeb211 80%);
+        border-color: #eeb211;
+    }
+    .s-la-public-header-0 .s-la-content-search {
+        margin-left: 50px;
+    }
+    
+    @media (min-width: 769px) {
+       .navbar-nav {
+         float: right;
+    margin-top: 15px;
+       }
+    
+       .navbar-form .s-la-content-search-query {
+         width: 450px;
+       }
+    
+    }
+    
+    
+    /* content */
+    
+    .nav-tabs {
+       margin-left: 10px;
+    }
+    
+    .s-la-faq-listing, .s-srch-result {
+       padding: 15px;
+       font-size: 13px;
+    }
+    
+    .s-la-faq-listing-q, .s-srch-result-title {
+      font-weight: 400;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    
+    .s-la-faq-listing-meta .metalabel, .s-srch-result-meta .metalabel {
+      font-weight: 300;
+    }
+    
+    .s-la-faq-listing-meta {
+       color: #666666;
+    }
+    
+    .s-la-faq-listing-meta .label-topic, .s-la-faq-topics .label-topic, .s-srch-result .label-default {
+       background: #fbf5e6;
+    }
+    
+    #s-la-contact-slideout header a {
+       padding: 25px;
+    }
+    
+    .s-la-content-iconitem {
+       margin-left: 10px;
+    }
+    
+    .s-la-box-type-4 .s-la-box-title.s-la-box-title-simple h2 {
+       font-size: 32px;
+       font-weight: 300;
+       margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .s-la-faq-answer-header {
+       padding-bottom: 10px;
+       border-bottom: 3px solid #efb310;
+    }
+    
+    .s-la-faq-answer li {
+        margin-bottom: 5px;
+    }
+    
+    .s-la-box-borderless .s-la-box-content {
+      padding: 20px;
+    }
+    </style>

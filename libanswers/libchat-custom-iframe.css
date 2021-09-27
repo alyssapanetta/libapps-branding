@@ -1,0 +1,85 @@
+/* this is what is inside the chat iframe */
+
+.s-la-widget {     background-color: rgba(21,140,144,1); background: linear-gradient(175deg, rgba(70,22,107,1) 0%, rgba(15,110,113,1) 65%, rgba(21,140,144,1) 100%);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.chatpane {
+  width: 92%; margin: auto; padding-top: 1em;
+  display: flex; flex-direction: column; justify-content; stretch;
+}
+
+.s-la-widget .btn-chat {text-transform: uppercase;  }
+.s-la-widget .btn-chat.btn-xs { padding: 5px 8px  }
+.s-la-widget .btn-link { color: #ffffff; }
+
+.s-la-widget h2 { border-bottom: 2px solid #eeb211; padding-bottom: 5px;  }
+
+/* *
+ * Proactive
+ * */
+  
+.chatpane#autoload { align-items:center; padding-top: 1em;
+}
+.s-la-widget h2#s-lch-autoload-head { border-bottom: 0px; }
+
+.s-la-widget #s-lch-autoload-text { color: #ffffff!important; }
+#s-lch-autoload-actions { display: flex; flex-direction: column; width: 66%;}
+  
+.s-la-widget .btn-chat#s-lch-autoload-yes {  font-weight: bold; transform: scale(1.2); width: 100%; color:#46166b; background-color: #eeb211;  }
+.s-la-widget .btn-chat#s-lch-autoload-yes:hover {
+   background-color: #46166b; color: #eeb211;
+}
+.s-la-widget .btn-chat#s-lch-autoload-no {  color: #f8d7da;    background-color: transparent; transform: scale(0.9);
+    border-color: transparent; }
+.s-la-widget .btn-chat#s-lch-autoload-no:hover { 
+    color: #f8d7da;    background-color: #721c24; 
+}
+/* *
+ * In take questionairre
+ * */
+
+#s-lch-login-form{    display: flex;  flex-direction: column;   height: 90%;    align-content: center;   justify-content: space-between; }
+#client_question { height: 5.5em; }
+.control-label { color: #ffffff; }
+label[for=client_question]  { color: #eeb211; }
+.s-la-widget .form-control:focus {  border-color: #eeb211; }
+
+#s-lch-dataNotice { font-size: 0.85em;line-height: 1.33em; padding-top: 0.5em; height: 4.5em; overflow-y: auto; background-color: #0f6e71; border-color: #0f6e71; color: #fff; }
+
+.s-la-widget #s-lch-dataNotice a { color: #eeb211!important; }
+
+
+.s-la-widget #s-lch-login-form .btn-xs {  font-size: 1.33em;  color: #46166b; padding: 0.5em; margin-bottom: 0em; transition: all .5s; }
+
+.s-la-widget #s-lch-login-form .btn-xs:hover { background-color: #46166b; border-color: #36a4a8;}
+
+
+.s-la-widget #s-lch-login-form .btn-sm { background-color: #46166b; color: #EEB211; transition: all .5s; border-color: transparent; }
+
+
+/* *
+ * Chat session 
+ * */
+
+ .s-lch-msg-sys .s-lch-msg-txt { color: #eeb211!important;}
+ .s-lch-msg-body { background-color: #fbf5e6!important; border-radius: 5px; padding: .25em .5em;}
+ .s-lch-msg-patron .s-lch-msg-body { background-color: #ffffff!important; padding: .5em .75em;}
+ #s-lch-msg-rate label { color: #ffffff; }
+ #s-lch-rate-form legend { color: #eeb211; }
+
+
+.s-lch-file-intro { color: #ffffff; }
+
+@media all and (min-width: 768px) {
+
+    .chatpane {
+      width: 88%;
+   }
+
+    #client_question { height: 10em; }
+    #branding_247 a.nav-link {
+        display: none!important;
+    }
+   
+}
