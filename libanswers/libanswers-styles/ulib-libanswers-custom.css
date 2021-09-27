@@ -277,6 +277,14 @@ margin-top: 15px;
    background: #fbf5e6;
 }
 
+#s-la-page-column-1  .label a {
+   border-bottom: 0px; 
+}
+
+#s-la-page-column-1  .label:hover {
+   background-color:#eeb211;
+}
+
 #s-la-contact-slideout header a {
    padding: 25px;
 }
@@ -287,22 +295,54 @@ margin-top: 15px;
 .s-la-box-title h2 {
     font-size: 1.25rem;
 }
+
+.s-la-box-title-simple.s-la-box-border-simple {
+   background: #e9e9e9;
+   border-bottom: 0px;
+}
  
 .s-la-box-type-4 .s-la-box-title.s-la-box-title-simple h2 {
-   font-size: 32px;
+   font-size: 3em;
    font-weight: 300;
-   margin-top: 15px;
-    margin-bottom: 15px;
+   margin-top: 0;
+    margin-bottom: 0;
+    color: #46166B;
 }
 
+.s-la-box-type-4 .s-la-box-title.s-la-box-title-simple h2:first-letter {
+   font-size: 6rem;
+   font-weight: 700;
+   color: #eeb211;
+   text-shadow: -3px 3px #46166B;
+   margin-left: -1em;
+}
+
+.s-la-box-border-simple.s-la-box-type-4 .s-la-box-content {
+   padding: 2em;
+}
+
+
 .s-la-faq-answer-header {
-   padding-bottom: 10px;
-   border-bottom: 3px solid #efb310;
+   padding: 1em 1.5em;
+   border-left: 6px solid #efb310;
+   margin-left: -1.75em;
+   margin-bottom: 0.5em;
+   margin-top: -0.5em;
+
 }
 
 .s-la-faq-answer li {
     margin-bottom: 5px;
 }
+
+
+/* unset all of the ckeditor inline garbage */
+.s-la-faq-answer-body span {
+   font-size: 1em!important;
+   font-family: system,-apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",sans-serif!important;
+   line-height: 1.75em!important;
+}
+
 
 .s-la-box-borderless .s-la-box-content {
   padding: 20px;
