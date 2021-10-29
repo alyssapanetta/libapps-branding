@@ -723,9 +723,6 @@ body.stop-background-scroll {
   margin: 0.125em 0.125em 0 0;
 }
 
-#ual-header .mega-menu .block-searchform {
-  width: 100%;
-}
 
 #ual-header .mega-menu input[type="search"] {
   border: 2px solid var(--primary-gold);
@@ -990,54 +987,7 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
   border-bottom-right-radius: 5px;
 }
 
-#ual-header #primoAutocomplete { position: absolute; 
-  top: 2.5em; left: 2em; 
-  background: rgba(0, 0, 0, 0.85)!important;  
-  width: 75%; 
-  border-radius: 0px 0px 5px 5px; z-index:10000000000000; 
-  /* hide the autocomplete entirely on mobile */
-  /* display: none !important; */
-}
-#ual-header #primoAutocomplete ul { display: -ms-flexbox; display: flex; flex-direction: column; padding-top: 6px; padding-left: 5px;}
-#ual-header #primoAutocomplete a.autocomplete-result { padding: .5em .5em; font-style: italic; cursor: pointer; }
-#ual-header #primoAutocomplete a.autocomplete-result > .current-search-query { font-weight: 900; font-style: normal; }
-
 #ual-header #simple .form-control { font-size: 1.1em; }
-
-#ual-header #simple .dropdown-menu {
-  background-color: rgba(0,0,0,.8);
-}
-
-#ual-header #simple .open > .dropdown-menu {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  cursor: pointer;
-  left: 2em;
-  z-index: 1000;
-  float: unset;
-  min-width: unset;
-  padding: 0 0;
-  margin: 0 0 0;
-  font-size: 1em;
-  text-align: left;
-  list-style: none;
-}
-
-
-#ual-header #simple .open > .dropdown-menu a {
-  width: 100%;
-  padding: 1em;
-  border-bottom: 1px solid rgba(0,0,0,.8);
-  transition: all .5s;
-}
-
-#ual-header #simple .open > .dropdown-menu a:hover {
-  background: var(--primary-purple);
-  text-decoration: none;
-}
 
 
 #ual-header #ual-header-navbar #statuslink,
@@ -1057,6 +1007,10 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
 #s-ui-cc-navbar {
   bottom: 4.5em;
 }
+
+
+/*    ----- stopped here - cleaning out unused classes -- ap 10.29 4:14 -- */
+
 
 
 
