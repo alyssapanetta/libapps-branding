@@ -1,0 +1,316 @@
+
+/*
+//
+//
+//   FOoter
+//
+//
+//
+//
+*/
+
+.site-footer  {
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    /*642a90;*/
+    border-top: 0px solid #ffffff;
+  }
+  
+  
+  .site-footer .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .site-footer .row .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  
+  footer a {
+    color: #ffffff;
+  }
+  
+  footer .site-footer__top {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    color: #e4e4e4;
+    flex-direction: column;
+  }
+  
+  footer .site-footer__top .region {
+    float: none;
+    flex-basis: 35%;
+  }
+  
+  .site-footer .block {
+    border: 0px solid transparent;
+    margin: 10px 0px;
+  }
+  
+  
+  #block-universitybranding {
+    font-size: .8rem;
+    font-weight: 300;
+    text-align: left;
+    max-width: 100%;
+    padding-left: 10%;
+  }
+  
+  #block-universitybranding img {
+    max-width: 85%;
+  }
+  
+  #block-universitybranding p span {
+    display: block;
+  }
+  
+  footer .site-footer__top nav {
+    
+  }
+  
+  .site-footer__top .region:last-child {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .site-footer__top .content ul.menu--footer-social li a {
+    border-bottom: 0px solid transparent;
+    padding-top: 0px;
+  }
+  
+  .site-footer__top .content ul.menu--footer-social li a:hover {
+    background: transparent;
+    color: var(--primary-gold);
+  }
+  
+  footer .site-footer__top #block-socialmedialinks a:last-of-type {
+    padding-right: 0px;
+  }
+  
+  #block-footer {
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 15px;
+  }
+  
+  #block-footer .navbar-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-height: 150px;
+    flex-flow: column wrap;
+  }
+  
+  /*
+  
+  #block-footer .navbar-nav li:last-child a{
+    color: var(--primary-gold);
+    text-transform: uppercase;
+  }
+  
+  */
+  
+  .site-footer__bottom {
+    margin-top: 0px;
+    border-top: 0px solid var(--primary-gold);
+    padding-left: 20px;
+    padding-right: 90px;
+    line-height: 1.2rem;
+  }
+  
+  
+  footer a {
+    font-weight: 300;
+  }
+  .region-footer nav {
+    width: 100%;
+    font-family: "Oswald", "Gothic A1", system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  }
+  
+  #block-ualibraries-footer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px;
+    text-transform: uppercase;
+  }
+  
+  #block-ualibraries-footer li a {
+    margin: 0 20px 7px 0px;
+    border-bottom: 2px solid transparent;
+  }
+  
+  
+  #block-ualibraries-footer li a:hover {
+    background: transparent;
+    color: var(--primary-gold);
+    border-bottom: 2px solid var(--primary-gold);
+  }
+  
+  
+  #block-ualibraries-footer-social li a {
+    padding: 0px;
+  }
+  
+  
+  #block-ualibraries-footer-social li a:hover {
+    background: transparent;
+    color: var(--primary-gold);
+  }
+  
+  #block-ualibraries-footer li.first a {
+  
+  }
+  
+  .region-footer-third .menu--footer-social { 
+    margin-left: 20px;
+  }
+  
+  .layout__region--first .nav.menu--footer-social li,
+  .menu--footer-social {
+    list-style: none;
+    width: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .menu--footer-social li {
+    padding: 0px 10px 0px 0px;
+  }
+  
+  footer .region-footer.branding, footer .region-footer.branding a {
+      color: #999999;
+  }
+  
+  #fine_print, #fine_print p {
+    font-size: .85em;
+    line-height: 1.1em;
+    padding-left: 20px;
+  }
+  
+  
+  .site-footer__top a.btn-outline-light {
+    color: var(--primary-gold);
+    border-radius: 0px;
+    border-color: var(--primary-gold);
+    text-transform: uppercase;
+    margin-top: 18px;
+  }
+  
+  
+  .site-footer__top a.btn-outline-light:hover {
+    background: var(--primary-gold);
+    color: #333333;
+    border-color: #333333;
+  }
+  
+  
+  @media all and (min-width: 769px) {
+      .site-footer .row {
+        margin-left: -10px;
+        margin-right: -10px;
+      }
+  }
+  
+  @media all and (min-width: 851px) {
+  
+    .site-footer  {
+      margin-top: 0px;
+      padding-top: 35px;
+      padding-bottom: 35px;
+      /*642a90;*/
+      border-top: 0px solid #ffffff;
+    }
+    
+  
+    footer .site-footer__top {
+        flex-direction: row;
+    }  
+    .site-footer__top .region {
+        width: auto;
+  
+    }
+  
+  
+    #block-footer {
+      padding-top: 0px;
+    }
+  
+    footer .region-footer.branding {
+        flex-direction: column;
+        align-content: space-between;
+    }
+    .footer {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1.5fr;
+      grid-gap: 0px 25px;
+      justify-items: start;
+      padding-bottom: 50px;
+      min-height: 33vh;
+    }
+  
+    .site-footer__top .region:first-child {
+      padding-right: 5%;
+    }
+  
+  
+    #block-universitybranding { 
+      padding-left: 20px;
+    }
+    
+    #block-universitybranding img {
+      max-width: 100%;
+    }
+  
+    .site-footer__top p {
+      font-size: .8rem;
+    }
+  
+    .site-footer__top .col-md-6:last-child {
+      text-align: right;
+    }
+    
+    .region-footer-third .menu--footer-social {
+      justify-content: flex-end;
+      margin-left: 0px;
+      margin-right: 25px;
+    }
+  
+    .menu--footer-social li {
+      padding: 0px 25px 10px 0px;
+    }
+  
+    #fine_print .license {
+      margin: 0px 0px;
+      justify-content: space-between;
+    }
+  
+  
+    .site-footer__bottom {
+      margin-top: 0px;
+      border-top: 1px solid var(--primary-gold);
+      padding-left: 0px;
+    }
+  
+  
+  }
+  
+  
