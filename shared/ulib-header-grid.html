@@ -21,26 +21,42 @@
                 <a href="/tools" class="nav-link"
                   data-target="#tools">Tools</a>
               </li>
+
+
+              <!-- paste TOOLS menu here (adjacent)-->
+
+
+
               <li class="nav-item">
                 <a href="/services" class="nav-link"
                   data-target="#services">Services</a>
+
+                  <!-- paste SERVICES menu here (nested) -->
               </li>
               <li class="nav-item">
                 <a href="/about" class="nav-link"
                   data-target="#about">About</a>
               </li>
+
+               <!-- paste ABOUT menu here (adjacent) -->
+
+
+
               <li class="nav-item">
                 <a href="#site-search" class="nav-link"
                   data-target="#site-search">Site Search</a>
+
+                   <!-- paste SEARCH menu here (nested) -->
+
               </li>
             </ul>
           </nav>
 
 
+          <!--TOOLS MENU-->
 
 
-
-          <div id="tools" class="full-nav-wrap mega-menu v2">
+          <div id="tools" class="mega-menu v2">
             <div class="full-nav">
               <div class="close"><a href="#" aria-label="Close Tools Menu">
               <h3 class="visually-hidden">Tools</h3>
@@ -54,15 +70,10 @@
                         <h4>Search for <span>books, articles, media</span> and
                           more</h4>
                       </div>
-                      <div id="primo-widget-">
-                        <section class="row region region-primo-search">
-                          <div id="primosearch"
-                            class=" block
-                            content">
-                            <div class="content">
-                              <div class="text-formatted field
-                                field--name-body field--type-text-with-summary
-                                field--label-hidden field__item"><!-- Script that converts the query string into valid parameter -->
+                      <div id="primo-widget-container">
+                        <section class="region region-primo-search">
+                         
+                              <div class=""><!-- Script that converts the query string into valid parameter -->
                                 <!-- Primo Search Form -->
                                 <form id="simple" name="searchForm" method="get"
                                   target="_self" autocomplete="off"
@@ -101,70 +112,19 @@
                                     <input type="text" class="form-control"
                                       aria-label="Search Query"
                                       id="primoQueryText">
-                                    <div class="input-group-append">
-                                      <button class="btn btn-outline-secondary
-                                        dropdown-toggle" type="button"
-                                        data-toggle="dropdown"
-                                        aria-haspopup="true"
-                                        aria-expanded="false"
-                                        id="dropdownTitle">Everything</button>
-                                        <i class="fas fa-angle-down"></i>
-                                      <div class="dropdown-menu"
-                                        id="primoSearchFlags">
-                                        <!-- Javascript takes care of search flags, see primoblock.js -->
-                                        <!-- <a class="dropdown-item" tabid="Everything" id="Everything" scopeid="MyInst_and_CI">Everything</a><a class="dropdown-item" tabid="LibraryCatalog" id="LibraryCatalog" scopeid="MyInstitution">UAlbany Libraries</a><a class="dropdown-item" tabid="NEWSUNY" id="NEWSUNY" scopeid="NewDiscoveryNetwork">SUNY Libraries</a><a class="dropdown-item" tabid="CourseReserves" id="CourseReserves" scopeid="CourseReserves">Course Reserves</a></div> -->
-                                        <a class="dropdown-item"
-                                          tabid="Everything" id="Everything"
-                                          scopeid="MyInst_and_CI">Everything</a><a
-                                          class="dropdown-item"
-                                          tabid="LibraryCatalog"
-                                          id="LibraryCatalog"
-                                          scopeid="MyInstitution">UAlbany
-                                          Libraries</a><a class="dropdown-item"
-                                          tabid="NEWSUNY" id="NEWSUNY"
-                                          scopeid="NewDiscoveryNetwork">SUNY
-                                          Libraries</a><a class="dropdown-item"
-                                          tabid="CourseReserves"
-                                          id="CourseReserves"
-                                          scopeid="CourseReserves">Course
-                                          Reserves</a></div>
+                                        
                                     </div>
                                   </div>
-                                  <!-- Autocomplete placeholder -->
-                                  <div class="primo-autocomplete"
-                                    id="primoAutocomplete" style="display:
-                                    none;">
-                                    <!-- Javascript takes care of adding autocomplete links as <a> tags  see primoblock.js -->
-                                    <ul><a class="autocomplete-result"
-                                        id="Everything" tabid="Everything"
-                                        scopeid="MyInst_and_CI"><span
-                                          class="current-search-query"></span>
-                                        in Everything</a><a
-                                        class="autocomplete-result"
-                                        id="LibraryCatalog"
-                                        tabid="LibraryCatalog"
-                                        scopeid="MyInstitution"><span
-                                          class="current-search-query"></span>
-                                        in UAlbany Libraries</a><a
-                                        class="autocomplete-result" id="NEWSUNY"
-                                        tabid="NEWSUNY"
-                                        scopeid="NewDiscoveryNetwork"><span
-                                          class="current-search-query"></span>
-                                        in SUNY Libraries</a><a
-                                        class="autocomplete-result"
-                                        id="CourseReserves"
-                                        tabid="CourseReserves"
-                                        scopeid="CourseReserves"><span
-                                          class="current-search-query"></span>
-                                        in Course Reserves</a></ul></div>
+                                  
                                   <!-- Search Button -->
                                   <input id="go" role="button" tabindex="0"
                                     title="Search" onclick="searchPrimo()"
                                     onkeydown="searchPrimo()" type="button"
                                     value="Search" alt="Search" class="">
-                                </form></div>
-                            </div>
-                          </div>
+                                </form>
+                              </div>
+                            
+                          
                         </section>
                       </div>
                       <div id="primo-links">
@@ -175,11 +135,11 @@
                       </div>
                     </div>
                   </div>
-                  <!-- end Drupal PRIMO Search box -->
+                  <!-- end PRIMO Search box -->
                   <nav role="navigation"
                     aria-labelledby="find-resources-menu"
-                    id="tools-navigation-search" class="menu--find-resources">
-                    <h2 id="find-resources-menu">Find Resources</h2>
+                   class="">
+                    <h4>Find Resources</h4>
                     <ul class="grid-navigation">
                       <!-- <li><a href="https://search.library.albany.edu"><img src="https://future.library.albany.edu/themes/custom/ualibraries/img/search-resources-gold.svg" class="custom-icon">Search for Books, Articles, Media and more</a></li>
                         -->
@@ -197,8 +157,8 @@
                 </div>
                 <div id="tools-help">
                   <nav role="navigation" aria-labelledby="find-help-menu"
-                    id="tools-navigation-help" class="menu--find-help">
-                    <h2 id="find-help-menu">Find Help</h2>
+                    id="tools-navigation-help" class="">
+                    <h4>Find Help</h4>
                     <ul class="grid-navigation">
                       <li><a href="https://albany.libanswers.com/"><i class="far fa-question fa-2x"></i>Frequently
                           Asked Questions</a></li>
@@ -214,7 +174,7 @@
                   </nav>
                 </div>
                 <div id="statuslink">
-                  <a class="text-uppercase"
+                  <a
                     href="https://albany.libanswers.com/systems">Systems Status</a><br>
                   <p>Check the current status of our systems, applications, and
                     online resources</p>
@@ -222,136 +182,18 @@
               </div>
             </div>
           </div>
-      <div id="about" class="full-nav-wrap mega-menu v2">
-        <div class="full-nav">
-          <div class="close"><a href="#"> <i class="fas fa-times fa-3x"></i><span
-                class="">close</span></a></div>
-          <div class="">
-            <nav role="navigation" aria-labelledby="about-menu"
-              id="about" class=" menu
-              navigation menu--about" >
-              <h2 id="about-menu">About</h2>
-              <ul block="about" class="nav">
-                <li class="nav-item menu-item--expanded">
-                  <a href="/about/visit" class="nav-link"
-                    >Visit &amp; Study</a>
-                  <ul class="menu">
-                    <li class="nav-item menu-item--collapsed">
-                      <a href="/hours" class="nav-link"
-                        >Hours</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="/locations" class="nav-link"
-                        >Locations,
-                        Directions and Maps</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="https://albany.libcal.com/calendar/events"
-                        class="nav-link
-                        ">Calendar
-                        of Events</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="/services/rooms" class=""
-                        >Study &amp;
-                        Technology Rooms</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="https://www.albany.edu/its/" class="nav-link
-                      ">ITS Service Desk</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item menu-item--expanded">
-                  <a href="/about/us" class="nav-link"
-                    >Who We Are</a>
-                  <ul class="menu">
-                    <li class="nav-item menu-item--collapsed">
-                      <a href="/directory" class="nav-link"
-                        >Faculty/Staff
-                        Directory</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="/about/faculty-publications" class="nav-link
-                        "
-                        >Faculty
-                        Publications</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="/about/faculty-presentations" class="nav-link
-                        "
-                        >Faculty
-                        Presentations</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="/about/administration" class="nav-link
-                        "
-                        >Library
-                        Administrators</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="/department/directory" class="nav-link
-                        "
-                        >Library
-                        Department Contacts</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item menu-item--expanded">
-                  <a href="/about/general" class="nav-link
-                    "
-                    >General Information</a>
-                  <ul class="menu">
-                    <li class="nav-item">
-                      <a href="/about/welcome" class="nav-link
-                        "
-                        >Welcome to the
-                        University Libraries</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="/policies/collection-development" class="nav-link
-                        "
-                        >Our Collections</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="/about/mission" class="nav-link
-                        "
-                        >Our Mission,
-                        Vision and Values</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="/about/history" class="nav-link
-                        "
-                        >Our History</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="/update" class="nav-link"
-                        >Newsletters</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="/policies" class="nav-link"
-                        >Policy Library</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
-            <div id="about-menu-contact-btn">
-              <a href="https://albany.libwizard.com/f/contactus" class="btn
-                btn-light modal-form" data-toggle="modal"
-                data-target="#formModal"><i class="fas fa-envelope"></i>
-                Contact Us</a>
-            </div>
-          </div>
-        </div>
-      </div>
+
+
+      <!-- SERVICES MENU -->
+
+      
       <div id="services" class="full-nav-wrap mega-menu v2">
         <div class="full-nav">
           <div class="close"><a href="#"> <i class="fas fa-times fa-3x"></i>close</a></div>
           <div class="">
             <nav role="navigation" aria-labelledby="services-menu"
-              id="services" class=" menu
-              navigation menu--services" >
+              id="services" class="menu
+              navigation" >
               <h2 id="services-menu">Services</h2>
               <ul block="services" class="nav">
                 <li class="nav-item menu-item--expanded">
@@ -505,6 +347,135 @@
           </div>
         </div>
       </div>
+
+
+      <!-- ABOUT MENU -->
+
+      <div id="about" class="full-nav-wrap mega-menu v2">
+        <div class="full-nav">
+          <div class="close"><a href="#"> <i class="fas fa-times fa-3x"></i><span
+                class="">close</span></a></div>
+          <div class="">
+            <nav role="navigation" aria-labelledby="about-menu"
+              id="about" class="menu               navigation" >
+              <h2 id="about-menu">About</h2>
+              <ul block="about" class="nav">
+                <li class="nav-item menu-item--expanded">
+                  <a href="/about/visit" class="nav-link"
+                    >Visit &amp; Study</a>
+                  <ul class="menu">
+                    <li class="nav-item menu-item--collapsed">
+                      <a href="/hours" class="nav-link"
+                        >Hours</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/locations" class="nav-link"
+                        >Locations,
+                        Directions and Maps</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="https://albany.libcal.com/calendar/events"
+                        class="nav-link
+                        ">Calendar
+                        of Events</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/services/rooms" class=""
+                        >Study &amp;
+                        Technology Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="https://www.albany.edu/its/" class="nav-link
+                      ">ITS Service Desk</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item menu-item--expanded">
+                  <a href="/about/us" class="nav-link"
+                    >Who We Are</a>
+                  <ul class="menu">
+                    <li class="nav-item menu-item--collapsed">
+                      <a href="/directory" class="nav-link"
+                        >Faculty/Staff
+                        Directory</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/about/faculty-publications" class="nav-link
+                        "
+                        >Faculty
+                        Publications</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/about/faculty-presentations" class="nav-link
+                        "
+                        >Faculty
+                        Presentations</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/about/administration" class="nav-link
+                        "
+                        >Library
+                        Administrators</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/department/directory" class="nav-link
+                        "
+                        >Library
+                        Department Contacts</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item menu-item--expanded">
+                  <a href="/about/general" class="nav-link
+                    "
+                    >General Information</a>
+                  <ul class="menu">
+                    <li class="nav-item">
+                      <a href="/about/welcome" class="nav-link
+                        "
+                        >Welcome to the
+                        University Libraries</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/policies/collection-development" class="nav-link
+                        "
+                        >Our Collections</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/about/mission" class="nav-link
+                        "
+                        >Our Mission,
+                        Vision and Values</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/about/history" class="nav-link
+                        "
+                        >Our History</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/update" class="nav-link"
+                        >Newsletters</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/policies" class="nav-link"
+                        >Policy Library</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+            <div id="about-menu-contact-btn">
+              <a href="https://albany.libwizard.com/f/contactus" class="btn
+                btn-light modal-form" data-toggle="modal"
+                data-target="#formModal"><i class="fas fa-envelope"></i>
+                Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- SITE SEARCH -->
 
       <div id="site-search" class="full-nav-wrap mega-menu">
         <div class="full-nav">
