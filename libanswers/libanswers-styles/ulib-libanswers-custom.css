@@ -38,21 +38,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
     font-weight: 400;
 }
 
-#ua-header {
-    display: none;
-  background-color: #46166B;
-color: #ffffff;
-  margin-bottom: 15px;
-}
-
-#ua-header img {
-  width: 100%;
-  max-width: 225px;
-  padding: 5px;
-}
 
 #s-la-page-28426 #s-la-headerlinks {
    display: none;
+}
+
+#ual-header + div {
+   margin-top: unset!important;
 }
 
 #s-la-headerlinks {
@@ -65,6 +57,11 @@ color: #ffffff;
   background-color: transparent;
   padding-bottom: 10px;
   border-bottom: 1px solid #ffffff;
+}
+
+#s-la-bc a {
+   color: #642a90;
+   font-size: 0.9em;
 }
 
 .s-la-page-home #s-la-bc {
@@ -302,34 +299,52 @@ margin-top: 15px;
 }
  
 .s-la-box-type-4 .s-la-box-title.s-la-box-title-simple h2 {
-   font-size: 3em;
+   font-size: 2em;
    font-weight: 300;
-   margin-top: 0;
-    margin-bottom: 0;
     color: #46166B;
 }
 
-.s-la-box-type-4 .s-la-box-title.s-la-box-title-simple h2:first-letter {
-   font-size: 6rem;
-   font-weight: 700;
-   color: #eeb211;
-   text-shadow: -3px 3px #46166B;
-   margin-left: -1em;
-}
-
-.s-la-box-border-simple.s-la-box-type-4 .s-la-box-content {
-   padding: 2em;
-}
-
-
 .s-la-faq-answer-header {
-   padding: 1em 1.5em;
-   border-left: 6px solid #efb310;
-   margin-left: -1.75em;
+   padding: 1em 1em;
+   background-color:#eeb211;
+   margin-left: -1em;
+   margin-right: -1em;
    margin-bottom: 0.5em;
-   margin-top: -0.5em;
+   margin-top: -1em;
 
 }
+
+@media screen and (min-width:769px) {
+
+
+   .s-la-box-type-4 .s-la-box-title.s-la-box-title-simple h2 {
+      font-size: 3em;
+      margin-top: 0;
+      margin-bottom: 0;
+   }
+   .s-la-box-type-4 .s-la-box-title.s-la-box-title-simple h2:first-letter {
+      font-size: 6rem;
+      font-weight: 700;
+      color: #eeb211;
+      text-shadow: -3px 3px #46166B;
+      margin-left: -1em;
+   }
+
+   .s-la-box-border-simple.s-la-box-type-4 .s-la-box-content {
+      padding: 2em;
+   }
+
+   .s-la-faq-answer-header {
+      padding: 1em 1.5em;
+      border-left: 6px solid #efb310;
+      background-color:transparent;
+      margin-left: -1.75em;
+      margin-bottom: 0.5em;
+      margin-top: -0.5em;
+
+   }
+}
+
 
 .s-la-faq-answer li {
     margin-bottom: 5px;
