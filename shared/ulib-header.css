@@ -31,22 +31,12 @@ body.stop-background-scroll {
 #ual-header + div {
   margin-top: 68px;
 }
-  
-#ual-header #navbar-main,
-#ual-header #navbar-main a {
- /* color: #DCCEE8; */
- color: #ffffff;
-}
 
 :focus { outline-color: var(--primary-gold);}
 
-#navbar-main a:hover {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-#ual-header .container {
-  background: transparent;
+#ual-header img {
+  max-width: 100%;
+  height: auto;
 }
 
 #ual-header .navbar {
@@ -105,14 +95,6 @@ body.stop-background-scroll {
   margin-right: 0.15em;
 }
 
-#navbar .container {
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-
 /*
 //
 // Navbar styling
@@ -120,18 +102,13 @@ body.stop-background-scroll {
 //
 */
 
-#branding_247 a.nav-link,
-#block-ualibraries-main-menu .nav > li {
+#branding_247 a.nav-link {
   float: none;
   width: 25%;
 }
 
-.navbar.container {
-  max-width: 100%;
-}
-
 /* 
-//  #navbar-top is for Drupal 
+//  #navbar-top 
 */
 
 #ual-header-navbar,
@@ -154,11 +131,6 @@ body.stop-background-scroll {
   width: unset;
 }
 
-.navbar#ual-header-navbar >.container,
-.navbar#navbar-top >.container {
-    padding-left: 0px;
-    padding-right: 0px;
-}
 
 .navbar.fixed-top .region-top-header {
   z-index: 2;
@@ -183,17 +155,14 @@ body.stop-background-scroll {
   transition: 0.5s all;
 }
 
-.menu--static .navbar-nav,
 .menu--main .navbar-nav {
   width: 100%;
 }
 
-.menu--static .navbar-nav > li a::before,
 .menu--main .navbar-nav > li a::before {
   display: none;
 }
 
-.menu--static .navbar-nav > li:nth-child(1) a::before,
 .menu--main .navbar-nav > li:nth-child(1) a::before {
   font-variant: normal;
   text-rendering: auto;
@@ -203,7 +172,6 @@ body.stop-background-scroll {
   font-weight: 900;
 }
 
-.menu--static .navbar-nav > li:nth-child(2) a::before,
 .menu--main .navbar-nav > li:nth-child(2) a::before { 
   font-variant: normal;
   text-rendering: auto;
@@ -213,7 +181,6 @@ body.stop-background-scroll {
   font-weight: 900;
 }
 
-.menu--static .navbar-nav > li:nth-child(3) a::before,
 .menu--main .navbar-nav > li:nth-child(3) a::before { 
   font-variant: normal;
   text-rendering: auto;
@@ -223,7 +190,6 @@ body.stop-background-scroll {
   font-weight: 900;
 }
 
-.menu--static .navbar-nav > li:nth-child(4) a::before,
 .menu--main .navbar-nav > li:nth-child(4) a::before {
   font-variant: normal;
   text-rendering: auto;
@@ -233,7 +199,6 @@ body.stop-background-scroll {
   font-weight: 900;
 }
 
-.menu--static .navbar-nav > li:nth-child(4) > a,
 .menu--main .navbar-nav > li:nth-child(4) > a {
   color: #f1bf37;
 }
@@ -267,10 +232,6 @@ body.stop-background-scroll {
   display: none;
 }
 
-#ual-header .mega-menu.v2 .container {
-  padding-left: 0;
-  padding-right: 0;
-}
 
 #ual-header .mega-menu.v2 li.nav-item.menu-item--expanded {
   font-size: 1em;
@@ -863,23 +824,6 @@ label {
    color: var(--primary-purple);
 }
 
-#block-ualibraries-main-menu-static,
-#block-ualibraries-main-menu  {
-  background: var(--primary-purple);
-  display: -ms-flexbox;
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: calc(100vh - 4.5em); 
-  padding-top: .5em;
-  z-index: 999999999999991;
-}
-
-#navbar-main .navbar-collapse {
-    justify-content: flex-end;
-}
 
 
 /*
@@ -967,19 +911,6 @@ label {
 *   PRIMO SEARCH WIDGET
 *
 */
-
-#ual-header #primo-search .container {
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position-y: center;
-  background-position-x: -5vw;
-  background-blend-mode: multiply;
-  padding-right: 0px;
-  padding-left: 0px;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  position: relative;
-}
 
 #ual-header #primo-search-label {
   display: flex;
@@ -1230,11 +1161,7 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
     body {
       margin-bottom: 2.5em;
     }
-    #block-ualibraries-main-menu-static,
-    #block-ualibraries-main-menu  {
-        top: calc(100vh - 4.5em); 
-        padding-top: .25em;
-    }
+    
         
     ul.grid-navigation li a {
       font-size: 1em;
@@ -1295,10 +1222,6 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
 
 @media all and (min-width: 576px) {
 
-  #navbar-main h1 {
-    padding: 2px 0 0 0;
-  }
-  
   ul.grid-navigation li a {
     padding: 10px;
     font-size: 1.2em;
@@ -1542,11 +1465,6 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
     transform: scale(1.5) translateX(-.25em) translateY(-.1em);
   }
 
-  .navbar>.container .navbar-brand, 
-  .navbar>.container-fluid .navbar-brand {
-    margin-left: 0px;
-  }
-
   #ual-header-navbar .navbar-nav,
   #navbar-top .navbar-nav  {
     float: none;
@@ -1601,19 +1519,11 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
     padding-left: 0px;
   }
 
-
-  #block-ualibraries-main-menu-static,
-  #block-ualibraries-main-menu  {
-    padding-top: 0em;
+  #ual-header a.nav-link{
+       width: unset;
   }
 
-  #ual-header a.nav-link, 
-  #block-ualibraries-main-menu .nav > li {
-      width: unset;
-  }
-
-  #ual-header a.nav-link svg, 
-  #block-ualibraries-main-menu .nav > li svg {
+  #ual-header a.nav-link svg {
       width: 1em;
   }
 
@@ -1621,10 +1531,6 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
     bottom: 0px;
     top: 4em;
     width: 100vw;
-  }
-
-  #ual-header .mega-menu.v2 .container {
-    width: unset;
   }
 
   #about-menu-contact-btn button.btn {
@@ -1695,15 +1601,6 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
     position: absolute;
   }
 */
-  #block-ualibraries-main-menu {
-    display: flex;
-    position: relative;
-    bottom: auto;
-    top: auto;
-    left: auto;
-    right: auto;
-    background: transparent;
-  }
 
   .navbar-default .navbar-nav > li > a {
     font-size: 1.25em;
@@ -1714,16 +1611,6 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
   }
 
 
-  #page-header  #navbar-main {
-      padding-top: 33px;
-      padding-bottom: 33px;
-  }
-
-
-  #navbar-main.affix  {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
 
 
   #ual-header .mega-menu.v2 li.nav-item.menu-item--expanded ul.menu * {
@@ -1731,21 +1618,6 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
     line-height: 1.25em;
   }
 
-/*
-  #page-header .container:after {
-    background-color: #DCCEE8;
-    content: "";
-    display: inline-block;
-    height: 1px;
-    position: relative;
-    vertical-align: middle;
-    width: 50%;
-    left: 0.5em;
-    margin-right: 0;
-    margin-top: 0px;
-  }
-
-*/
   #block-ualibraries-page-title{ 
     width: 100%;
     word-break: keep-all;
@@ -1757,14 +1629,6 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
   *
   */
 
-
-  #ual-header #primo-search .container {
-    height: 25vh;
-    justify-content: center;
-    align-items: center;
-    background-position-x: 1em;
-    padding-right: 0px;
-  }
 
   #ual-header #simple .input-group { display: flex; flex-direction: row; width: 80%; padding-left: 2em; flex-wrap: nowrap; }
   #ual-header #simple #primoQueryText { 
@@ -1964,45 +1828,12 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
   #ual-header .mega-menu.v2 {
     padding: 3vh 5% 2vh 5%;
   }
-/* 
-  #tools .container {
-    display: flex;
-    flex-direction: row;
-    width: 1080px;
-    height: 100%;
-    align-content: stretch;
-    justify-content: stretch;
-  }
-
-  #tools .container > * {
-    width: 47.5%;
-    margin-left: 2.5%;
-  }
-
-  #tools .container > *:first-child {
-    width: 48.5%;
-    margin-left: 0;
-    margin-right: 1.5%;
-  }
-
-  #tools .container > #ual-header .full-nav ul {
-    height: 100%;
-  }
-
-  ul.grid-navigation li a {
-    height: 12.5vh;
-  } */
 
   #tools#ual-header .mega-menu.v2 {
     padding: 0vh 5% 2vh 0;
   }
   #tools#ual-header .mega-menu.v2 nav {
     margin-left:5%;
-  }
-
-  
-  #ual-header #primo-search .container {
-    padding-left: 8.75%;
   }
 
   #tools-search ul.grid-navigation,
@@ -2117,11 +1948,6 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
     width: 47.5vw;
   }
 
-  #ual-header #primo-search .container {
-    height: 35vh;
-    padding-left: 0;
-    background-position-x: 3vw;
-  }
 
   #ual-header #primo-search-label {
     margin-top: 2em;
@@ -2186,10 +2012,6 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
 
 @media all and (min-width: 976px) and (min-height:898px) {
 
-  #ual-header #primo-search .container {
-    height: 32vh;
-  }
-
 }
 
 /* fit for macbook air, chromebook 11" screens
@@ -2206,10 +2028,6 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
     padding: 2.15vh 2.75vw;
   }
 
-  #ual-header #primo-search .container {
-    height: 30vh;
-  }
-
   #ual-header #primo-search-label {
     margin-top: 0;
   }
@@ -2221,12 +2039,6 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
   #about-menu-contact-btn a.btn {
     padding: .5em 1em;
   }
-
-  #ual-header #primo-search .container {
-    padding-top: 1em;
-    padding-bottom: 1em;
-  }
-  
 
 }
 
@@ -2386,10 +2198,6 @@ div[role=tablist] .list-group-item.active {
   border-top: 0px solid #ffffff;
 }
 
-.site-footer .container {
-  padding-left: 0px;
-  padding-right: 0px;
-}
 
 .site-footer .row {
   margin-left: 0px;
