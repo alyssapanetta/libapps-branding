@@ -36,6 +36,24 @@ body.stop-background-scroll {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
+.mobile-only {
+  display: inline;
+}
+
+img.more-than-mobile {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  img.mobile-only {
+    display: none;
+  }
+
+  img.more-than-mobile {
+    display: inline-flex;
+  }
+}
+
 .visually-hidden a:focus,
 .visually-hidden input:focus,
 .visually-hidden button:focus {
@@ -62,6 +80,7 @@ body.stop-background-scroll {
 
 #ual-header .navbar {
    width: 100%;
+   
 }
 
 #ual-header .navbar-brand {
@@ -69,13 +88,13 @@ body.stop-background-scroll {
   color: #ffffff;
   height: auto;
   padding: 0em;
-  width: 75%;
+  max-width: 50%;
 }
 
 #ual-header .navbar-brand img {
- margin-left: 0.5em;
- width: 100%;
- padding: 0.4em 0.66em 0.5em 0.66em;
+ margin-left: 0rem;
+ width: auto;
+ padding: 0.5rem 0.75em 0.5rem 0em;
 }
 
 #ual-header .navbar-brand:focus,
@@ -110,13 +129,14 @@ body.stop-background-scroll {
   border-radius: 0px;
   border: 0px;
   margin-bottom: 0px;
-  height: 4em;
+  height: auto;
   overflow-x: visible;
+  border-bottom: 2ch solid var(--primary-gold);
   box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.45), 0 6px 20px 0 rgba(0, 0, 0, 0.2); 
 }
 
 #ual-header #navbar-top.fixed-top {
-  right: 4em;
+  right: 0em;
   width: unset;
 }
 
@@ -128,7 +148,7 @@ body.stop-background-scroll {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 #ual-header .region-top-header .navbar-nav {
@@ -835,6 +855,20 @@ body.stop-background-scroll {
 #ual-header .navbar-nav>li>a:hover, #ual-header .navbar-nav>li>a:focus {
     color: var(--primary-gold);
     background: var(--primary-purple);
+}
+
+
+#block-ualibraries-main-menu {
+  background: #46166b;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: calc(100vh - 4.5em);
+  padding-top: .5em;
+  z-index: 999999999999991;
 }
 
 

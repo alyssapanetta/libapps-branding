@@ -11,3 +11,12 @@ ulib.css.colors {
     color: hsla(182, 75%, 32%, 0.66);
     color:hsl(182, 75%, 32%);
 }
+
+:root {
+  --primary-purple: hsl(274, 66%, 25%);
+  --primary-purple-mid: hsl(274, 55%, 36%);
+  --primary-purple-light: hsl(274, 66%, 80%);
+  --primary-gold: hsl(44, 87%, 50%);
+  --primary-gold-mid: hsl(44, 87%, 70%);
+  --primary-gold-light: hsl(44, 50%, 90%);
+}
