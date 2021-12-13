@@ -151,6 +151,14 @@ img.more-than-mobile {
   justify-content: flex-start;
 }
 
+#ual-header .navbar.fixed-top .region-top-header .container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
 #ual-header .region-top-header .navbar-nav {
   display: flex;
   flex-direction: row;
@@ -388,7 +396,8 @@ img.more-than-mobile {
 #ual-header .app-title {
   font-family: Oswald;
   color: var(--primary-gold);
-  font-size: 2.441rem;
+/*   font-size: 2.441rem; */
+  font-size: clamp(1.75rem, 4vw + 1rem, 3rem);
   margin-top: 0;
   padding-top: 0;
   text-transform: uppercase;
@@ -1158,7 +1167,9 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
     max-height: 50px;
     width: auto;
     max-width: unset;
-    padding: 0.25em 0.66em 0.25em 0.66em;
+/*     padding: 0.25em 0.66em 0.25em 0.66em;
+ */      padding-right: clamp(1rem, 5%, 3rem);
+
   }
 
 
@@ -1332,12 +1343,19 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
 
     
   #ual-header .navbar-brand {
-    width: 27.5%;
+    width: auto;
   }
 
   #ual-header .app-title {
-    width: 25%;
+    width: auto;
     text-decoration: none;
+    transition: transform .5s;
+  }
+  #ual-header .app-title:hover,
+  #ual-header .app-title:focus,
+  #ual-header .app-title:focus-visible {
+    text-decoration: none;
+    transform: scale(1.1);
   }
 
   #ual-header #ual-header-navbar .navbar-nav > li > a:hover .svg-inline--fa,
@@ -1430,7 +1448,16 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
     margin-right: 15px;
     /*align-self: flex-start; */
   }
-
+  #block-ualibraries-main-menu {     
+    display: flex;     
+    position: relative;     
+    bottom: auto;     
+    top: auto;     
+    left: auto;     
+    right: auto;     
+    background: transparent;   
+    align-self: flex-end;
+  }
   
   #ual-header #simple .dropdown-toggle + svg {
     position: relative;
@@ -1657,7 +1684,6 @@ background-color: var(--primary-gold); border-color: var(--primary-gold); */
     max-height: 56px;
     width: auto;
     max-width: unset;
-    padding: 0.25em 0em 0.25em 0em;
   }
 
 
