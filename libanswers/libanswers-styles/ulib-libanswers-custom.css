@@ -68,7 +68,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
    display: none;
 }
 
-
+/* 
 #s-la-header-public,
 #s-la-public-header {
     background: rgb(49,33,80);
@@ -141,7 +141,7 @@ h1#s-la-public-header-title {
   font-size:1.25rem;
   letter-spacing: 0.01rem;
 }
-
+ */
 .s-la-public-header-2 .s-la-navbar {
      margin-top: 50px;
      margin-bottom: 25px;
@@ -164,7 +164,7 @@ border: 0px solid transparent;
     padding: 10px 0px;
    background-color: transparent;
 }
-
+/* 
 #s-la-header-public a,
 #s-la-public-header a {
     color: #ffffff;
@@ -173,7 +173,7 @@ border: 0px solid transparent;
 #s-la-header-public .dropdown-menu a {
     color: #642a90;
     font-weight: 400;
-}
+} */
 
 .btn-primary {
     background: #efb310; 
